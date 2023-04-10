@@ -1,0 +1,41 @@
+.MainContainer {
+    width: 100%;
+    /* -ms-overflow-style: none;
+    scrollbar-width: none; */
+    height: 100%;
+}
+
+/* .MainContainer::-webkit-scrollbar {
+    display: none;
+} */
+
+.navbar {
+    background-color: white;
+    height: 10vh;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 20px 40px 20px 40px;
+
+    position: fixed;
+    z-index: 10;
+}
+
+.logo {
+    flex-basis: 7%;
+}
+
+.menus {
+    flex-basis: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menus p a {
+    color: black;
+    text-decoration: none;
+}
