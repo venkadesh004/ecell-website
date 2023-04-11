@@ -22,7 +22,6 @@ function FeedbackContainer() {
         </form>
         <submit className="send">Send Message</submit>
 
-
         <div className="footer">
             <a href="https://www.instagram.com/ecelltce/" target='_blank' rel="noreferrer"><img src={Insta} alt="insta" /></a>
             <a href="https://twitter.com/ecelltcemdu" target='_blank' rel="noreferrer"><img src={Twitter} alt="twitter" /></a>
