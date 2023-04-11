@@ -1,0 +1,30 @@
+.QuotesContainer {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+
+    align-items: center;
+
+    position: relative;
+
+    padding-bottom: 50px;
+
+    background-color: #FAFAFA;
+}
+
+.QuotesContainer h1 {
+    margin-top: 20px;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.left-shift {
+    margin-left: -600px;
+}
+
+.right-shift {
+    margin-left: 600px;
+}

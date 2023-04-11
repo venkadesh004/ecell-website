@@ -1,0 +1,55 @@
+.QuotesBox {
+    width: 800px;
+    height: 200px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    text-align: center;
+
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+
+    margin-top: 30px;
+}
+
+.left-col-quotes-0 {
+    height: 100%;
+    flex-basis: 30%;
+}
+
+.right-col-quotes-0 {
+    height: 100%;
+    flex-basis: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.left-col-quotes-1 {
+    height: 100%;
+    flex-basis: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.right-col-quotes-1 {
+    height: 100%;
+    flex-basis: 30%;
+}
+
+.QuotesBox p {
+    font-size: 12px;
+}
+
+.QuotesBox h6 {
+    font-size: 15px;
+}
+
+.QuotesBox img {
+    height: 100%;
+}

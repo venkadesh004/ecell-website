@@ -1,0 +1,83 @@
+.FeedbackContainer {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.FeedbackContainer h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.FeedbackContainer h4 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.message {
+    width: 45%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-message {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-message input {
+    width: 400px;
+    height: 50px;
+    padding-left: 20px;
+    color: #D4D4D4;
+    border: 1px solid rgba(0, 0, 0, 0.22);
+}
+
+.send {
+    width: 45%;
+    margin-top: 20px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: rgba(217, 217, 217, 0.12);
+    border: 1px solid rgba(0, 0, 0, 0.22);
+
+    color: rgba(0, 0, 0, 0.445);
+}
+
+.right-message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.right-message textarea {
+    padding-left: 20px;
+    padding-top: 20px;
+    color: #D4D4D4;
+    border: 1px solid rgba(0, 0, 0, 0.22);
+}
+
+.footer {
+    margin-top: 100px;
+
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-bottom: 50px;
+}
+
+.footer img {
+    width: 30px;
+}
