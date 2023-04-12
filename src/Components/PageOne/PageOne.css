@@ -35,3 +35,23 @@
     margin-top: 10px;
     font-size: 25px;
 }
+
+@media screen and (max-width: 800px) {
+    .PageOne h3 {
+        margin-top: 20px;
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .PageOne h5 {
+        display: none;
+    }
+
+    .PageOne p {
+        display: none;
+    }
+
+    .PageOne h6 {
+        display: none;
+    }
+}

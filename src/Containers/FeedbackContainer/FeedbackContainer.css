@@ -36,7 +36,7 @@
     width: 400px;
     height: 50px;
     padding-left: 20px;
-    color: #D4D4D4;
+    color: rgba(0, 0, 0, 0.8);
     border: 1px solid rgba(0, 0, 0, 0.22);
 }
 
@@ -52,6 +52,8 @@
     border: 1px solid rgba(0, 0, 0, 0.22);
 
     color: rgba(0, 0, 0, 0.445);
+
+    cursor: pointer;
 }
 
 .right-message {
@@ -63,7 +65,7 @@
 .right-message textarea {
     padding-left: 20px;
     padding-top: 20px;
-    color: #D4D4D4;
+    color: rgba(0, 0, 0, 0.8);
     border: 1px solid rgba(0, 0, 0, 0.22);
 }
 
@@ -80,4 +82,37 @@
 
 .footer img {
     width: 30px;
+}
+
+@media screen and (max-width: 500px) {
+    .FeedbackContainer h1 {
+        font-size: 30px;
+    }    
+
+    .FeedbackContainer h4 {
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .message {
+        flex-direction: column;
+        width: 300px;
+    }
+
+    .left-message {
+        width: 100%;
+    }
+
+    .left-message input {
+        width: 100%;
+    }
+
+    .right-message {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .right-message textarea {
+        width: 100%;
+    }
 }

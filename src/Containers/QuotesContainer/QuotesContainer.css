@@ -28,3 +28,21 @@
 .right-shift {
     margin-left: 600px;
 }
+
+@media screen and (max-width: 500px) {
+    .QuotesContainer h1 {
+        font-size: 20px;
+    }
+
+    .QuotesContainer {
+        margin-top: 20px;
+    }
+
+    .left-shift {
+        margin-left: 0px;
+    }
+
+    .right-shift {
+        margin-left: 0px;
+    }
+}

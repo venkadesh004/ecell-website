@@ -28,20 +28,6 @@
     flex-direction: column;
 }
 
-.left-col-quotes-1 {
-    height: 100%;
-    flex-basis: 70%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.right-col-quotes-1 {
-    height: 100%;
-    flex-basis: 30%;
-}
-
 .QuotesBox p {
     font-size: 12px;
 }
@@ -52,4 +38,24 @@
 
 .QuotesBox img {
     height: 100%;
+}
+
+@media screen and (max-width: 500px) {
+    .QuotesBox {
+        flex-direction: column;
+        height: fit-content;
+        width: 300px;
+    }
+
+    .QuotesBox img {
+        width: 100px;
+    }
+
+    .QuotesBox p {
+        font-size: 8px;
+    }
+
+    .QuotesBox h6 {
+        font-size: 12px;
+    }
 }

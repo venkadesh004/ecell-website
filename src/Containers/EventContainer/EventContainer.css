@@ -12,7 +12,7 @@
 
 .event {
     display: flex;
-    width: 80%;
+    width: 70%;
     align-items: center;
     justify-content: space-between;
     margin-top: 50px;
@@ -72,6 +72,8 @@
     flex-direction: column;
     text-align: center;
     margin-top: -20px;
+    /* margin-left: 50px; */
+    width: 600px;
 }
 
 .event-data h1 {
@@ -84,4 +86,43 @@
 
 .event-data p a {
     color: black;
+}
+
+@media screen and (max-width: 1600px) {
+    .event {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .EventContainer {
+        margin-bottom: 0px;
+        margin-top: 500px;
+        position: relative;
+    }
+
+    .EventContainer h1 {
+        font-size: 30px;
+    }
+    
+    .event {
+        flex-direction: column;
+    }
+
+    .img-bg {
+        display: none;
+    }
+
+    .img-cont {
+        width: 100%;
+        height: 185px;
+    }
+
+    .img-cont-img {
+        width: 100%;
+    }
+
+    .event-data p {
+        font-size: 10px;
+    }
 }
